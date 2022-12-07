@@ -1,5 +1,9 @@
 # serverless-node-restful-api-read-optimized-aws-lambda-mongodb
 RESTful apis for optimizing read operations - Node.js + AWS Lambda + MongoDB - No Framework or Third party library used </BR>
+
+
+![node-rest-apis-read-optimized-aws-lambda](https://user-images.githubusercontent.com/102517671/206181001-35c902fc-2aa0-4657-8eda-b0399e642f64.png)
+
 AWS Lambda function :   app.zip </BR>
 Configure lambda handler as:    app.handler. </BR>
 Configure environment variable for MongoDB: </BR>
