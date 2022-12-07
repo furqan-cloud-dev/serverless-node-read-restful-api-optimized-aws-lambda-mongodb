@@ -6,6 +6,7 @@ configure environment variable for MongoDB:
 
 
 Environment Variable in AWS Lambda for MONGODB_URI = "{connection string}" 
+
 MongoDB Atlas is a great option for managed cloud mongodb cluster to start with - Free Tier is available
 
 Environment Variable in AWS Lambda for MONGODB_DATABASE_NAME = "{db name}"
