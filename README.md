@@ -1,21 +1,23 @@
-# serverless-node-read-restful-api-optimized-aws-lambda-mongodb
-restful apis for optimizing read operations - Node.js + AWS Lambda + MongoDB - No Framework or Third part library used </BR>
+# serverless-node-restful-api-read-optimized-aws-lambda-mongodb
+RESTful apis for optimizing read operations - Node.js + AWS Lambda + MongoDB - No Framework or Third party library used </BR>
 AWS Lambda function :   app.zip </BR>
-configure lambda handler as:   app.handler. </BR>
-configure environment variable for MongoDB: </BR>
+Configure lambda handler as:    app.handler. </BR>
+Configure environment variable for MongoDB: </BR>
 
-Configure Environment Variable in AWS Lambda for MONGODB_URI = "{connection string}" 
-
-MongoDB Atlas is a great option for managed cloud mongodb cluster to start with - Free Tier is available
-
-Configure Environment Variable in AWS Lambda for MONGODB_DATABASE_NAME = "{db name}"
+Environment Variable in AWS Lambda for MONGODB_URI = "{connection string}" </BR>
+MongoDB Atlas is a great option for managed cloud mongodb cluster to start with - Free Tier is available </BR></BR>
+Environment Variable in AWS Lambda for MONGODB_DATABASE_NAME = "{db name}"
 
 How to configure?: https://docs.aws.amazon.com/lambda/latest/dg/configuration-envvars.html"
 
-E-Route to get the data from any collection from MongoDB Database ( Highly Dynamic) with minimum latancy. both for Cold Start Time + Init Time. Execution time is also optimized to return the data from database in minimum time. No Express Framework OR Any Third party libray is used. MongoDB Integration is added using mongodb native driver for javascript. Complete pagination, filter and specific returned fields options for dynamic read e-Route without any changes to backend.
+E-Route to get the data from any collection from MongoDB Database ( Highly Dynamic) with minimum latancy. both for Cold Start Time + Init Time. Execution time is also optimized to return the data from database in minimum time. No Express Framework OR Any Third party libray is used. MongoDB Integration is added using mongodb native driver for javascript. Complete pagination, filter and specific returned fields options for dynamic read e-Route without any changes to backend
 
-[ GET ] /api/e/{entity}?page=1&limit=10 </BR>
-json body:   { "filter": { "name": "furqan" }, "sort": { "_id": "desc" }, "fields": ["name", "tech_stack"] }
+[ GET ] /api/e/users?page=1&limit=10 </BR>
+json body:   { "filter": { "name": "furqan" }, "sort": { "_id": "desc" }, "fields": ["name", "tech_stack"] } </BR></BR>
+
+[ GET ] /api/e/users/6382c5ab8bfe8614c6d0df19 </BR>
+json body:   { "fields": ["name", "tech_stack"] }
+
 
 
 </BR></BR>
