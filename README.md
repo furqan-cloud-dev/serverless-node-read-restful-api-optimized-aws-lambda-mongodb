@@ -1,9 +1,10 @@
-# serverless-node-restful-api-read-optimized-aws-lambda-mongodb
-RESTful apis for optimizing read operations - Node.js + AWS Lambda + MongoDB - No Framework or Third party library used </BR>
+# serverless-node-js-typescript-restful-api-read-optimized-aws-lambda-mongodb
+RESTful apis for optimizing read operations - Node.js + TypeScript + ESBuild + AWS Lambda + MongoDB - No Framework or Third party library used </BR>
 
 
 ![node-rest-apis-read-optimized-aws-lambda](https://user-images.githubusercontent.com/102517671/206181001-35c902fc-2aa0-4657-8eda-b0399e642f64.png)
 ![aws-lambda-rest-api-javascript-optimized](https://user-images.githubusercontent.com/102517671/206183292-4ef6c47d-91d0-4f3c-809d-3f31216c723e.png)
+![node-rest-api-read-optimized-vs-code-typescript](https://user-images.githubusercontent.com/102517671/206243378-4ca22ee5-d130-4308-97c8-d8ccc476a33d.png)
 
 AWS Lambda function :   app.zip </BR>
 Configure lambda handler as:    app.handler. </BR>
